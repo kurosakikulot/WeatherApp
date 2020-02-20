@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  background-image: url("./components/images/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.logo {
+  margin-top: 20px;
+}
+
+.form {
+  margin: 80px auto 30px !important;
+}
+
+.search-input {
+  font-family: "Pacifico", cursive;
+  width: 20% !important;
+  border: 2px white solid !important;
+  background-color: #c7c7c7 !important;
+  border-radius: 20px !important;
+  height: 50px;
+  padding: 0 10px !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    inset 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+  transition: all 0.5s;
+}
+
+.search-label {
+  color: white;
+}
+
+.home {
+  background: radial-gradient(52% 52% at 50% 48%, #ffffff 0%, #c7c7c7 59.37%);
+  min-height: 65vh;
+  width: 100% !important;
+  font-family: "Salsa", cursive;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: black;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    inset 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+}
+
+.city-name {
+  padding: 20px 0 0 0;
+}
+
+.weather-description {
+  padding-top: 30px;
+  font-size: 2rem;
+  color: goldenrod;
+}
+
+.clouds-count {
+  font-size: 1rem;
+}
+
+.temperature {
+  font-size: 1.5rem;
+}
+
+.wind {
+  font-size: 1.2rem;
+}
+
+@media all and (max-width: 768px) {
+  .search-input {
+    width: 50% !important;
+  }
+
+  .home {
+    min-height: 60vh !important;
+  }
+
+  .App {
+    min-height: 140vh;
+  }
+
+}
