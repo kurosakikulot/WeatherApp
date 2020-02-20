@@ -76,11 +76,10 @@ body {
   }
 
   .home {
-    min-height: 60vh !important;
+    min-height: 70vh !important;
   }
 
   .App {
     min-height: 140vh;
   }
-
 }
